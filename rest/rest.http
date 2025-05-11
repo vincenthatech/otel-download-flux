@@ -1,0 +1,13 @@
+curl http://localhost:8080/api/products
+
+###
+
+curl http://localhost:8080/api/products/1
+
+###
+curl -X POST http://localhost:8080/api/products \
+     -H "Content-Type: application/json" \
+     -d '{"name":"New Product","price":99.99}'
+
+###
+curl http://localhost:8080/api/file/download
